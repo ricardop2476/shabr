@@ -1,4 +1,23 @@
-body {
-    background-color: black;
-    color: white;
+/*sets the body to fit the entire screen*/
+html, body {
+    height: 100%;
+}
+
+#page {
+    height: 100%;
+}
+
+#page .title {
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-5%, -50%, 0);
+}
+
+#page .title h1, h2{
+    font-family: 'Muli', sans-serif;
+    color: #3E52B3;
+}
+
+#page .title h3 {
+    color: #262626;
 }
