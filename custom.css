@@ -9,24 +9,32 @@ html, body {
 
 #page .title {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translate3d(-5%, -50%, 0);
 }
 
-#page .title h1, h2{
+#page .title h1 {
     font-family: 'Muli', sans-serif;
     color: #3E52B3;
+    font-size: 95px;
+}
+
+#page .title h2 {
+    font-family: 'Multi', sans-serif;
+    color: #3E52B3;
+    /*font-size: 37px*/
 }
 
 #page .title h3 {
+    font-family: 'Muli', sans-serif;
     color: #262626;
+    /*font-size: 23px;*/
 }
 
 #page .down span.arrow {
     display: inline-block;
     width: 55px;
     height: 55px;
-    position: relative;
     cursor: pointer;
     line-height: 57px;
     border-radius: 50%;
@@ -41,3 +49,31 @@ html, body {
     width: 100%;
 }
 
+/* less than xs */
+@media(max-width:768px){
+    #page .title h1 {
+        font-size: 10px;
+        color: red;
+    }
+}
+/* more than xs*/
+@media(min-width:768px){
+    #page .title h1 {
+        font-size: 20px;
+        color: blue;
+    }
+}
+/* medium+ */
+@media(min-width:992px){
+    #page .title h1 {
+        font-size: 30px;
+        color:black;
+    }
+}
+/* large+ */
+@media(min-width:1200px){
+    #page .title h1 {
+        font-size: 40px;
+        color: green;
+    }
+}
