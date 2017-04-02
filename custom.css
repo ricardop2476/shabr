@@ -28,8 +28,7 @@ html, body {
     height: 55px;
     position: relative;
     cursor: pointer;
-    /*text-align: center;*/
-    line-height: 64px;
+    line-height: 57px;
     border-radius: 50%;
     background: #3E52B3;
 }
