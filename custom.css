@@ -59,21 +59,21 @@ html, body {
 /* more than xs*/
 @media(min-width:768px){
     #page .title h1 {
-        font-size: 120px;
+        font-size: 110px;
         color: blue;
     }
 }
 /* medium+ */
 @media(min-width:992px){
     #page .title h1 {
-        font-size: 130px;
+        font-size: 135px;
         color:black;
     }
 }
 /* large+ */
 @media(min-width:1200px){
     #page .title h1 {
-        font-size: 40px;
+        font-size: 160px;
         color: green;
     }
 }
