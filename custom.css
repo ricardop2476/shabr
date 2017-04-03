@@ -50,30 +50,30 @@ html, body {
 }
 
 /* less than xs */
-@media(max-width:768px){
+@media(max-width:768px) {
     #landing .title h1 {
-        font-size: 85px;
-        color: red;
+    font-size: 85px;
+    color: red;
     }
 }
 /* more than xs*/
-@media(min-width:768px){
+@media(min-width:768px) {
     #landing .title h1 {
-        font-size: 120px;
-        color: blue;
+    font-size: 120px;
+    color: blue;
     }
 }
 /* medium+ */
 @media(min-width:992px){
     #landing .title h1 {
-        font-size: 130px;
-        color:black;
+    font-size: 135px;
+    color:black;
     }
 }
 /* large+ */
 @media(min-width:1200px){
     #landing .title h1 {
-        font-size: 40px;
+    font-size: 160px;
         color: green;
     }
 }
