@@ -74,6 +74,6 @@ html, body {
 @media(min-width:1200px){
     #landing .title h1 {
     font-size: 160px;
-        color: green;
+    color: green;
     }
 }
