@@ -23,19 +23,19 @@ html, body {
 
 #landing .title h1 {
     font-family: 'Muli', sans-serif;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 95px;
 }
 
 #landing .title h2 {
     font-family: 'Multi', sans-serif;
-    color: #3E52B3;
+    color: #FFFFFF;
     /*font-size: 37px*/
 }
 
 #landing .title h3 {
     font-family: 'Muli', sans-serif;
-    color: #262626;
+    color: #FFFFFF;
     /*font-size: 23px;*/
 }
 
@@ -46,7 +46,7 @@ html, body {
     cursor: pointer;
     line-height: 57px;
     border-radius: 50%;
-    background: #3E52B3;
+    background: #FFFFFF;
 }
 
 #landing .down {
@@ -61,7 +61,7 @@ html, body {
 /* less than xs */
 @media(max-width:768px) {
     #landing .title h1 {
-    font-size: 85px;
+    font-size: 90px;
     }
 }
 /* more than xs*/
@@ -73,12 +73,64 @@ html, body {
 /* medium+ */
 @media(min-width:992px){
     #landing .title h1 {
-    font-size: 135px;
+    font-size: 145px;
     }
 }
 /* large+ */
 @media(min-width:1200px){
     #landing .title h1 {
     font-size: 160px;
+    }
+}
+
+/* habr */
+/* less than xs */
+@media(max-width:768px) {
+    #landing .title h2 {
+    font-size: 40px;
+    }
+}
+/* more than xs*/
+@media(min-width:768px) {
+    #landing .title h2 {
+    font-size: 55px;
+    }
+}
+/* medium+ */
+@media(min-width:992px){
+    #landing .title h2 {
+    font-size: 60px;
+    }
+}
+/* large+ */
+@media(min-width:1200px){
+    #landing .title h2 {
+    font-size: 75px;
+    }
+}
+
+/* h3 */
+/* less than xs */
+@media(max-width:768px) {
+    #landing .title h3 {
+    font-size: 19px;
+    }
+}
+/* more than xs*/
+@media(min-width:768px) {
+    #landing .title h3 {
+    font-size: 27px;
+    }
+}
+/* medium+ */
+@media(min-width:992px){
+    #landing .title h3 {
+    font-size: 29px;
+    }
+}
+/* large+ */
+@media(min-width:1200px){
+    #landing .title h3 {
+    font-size: 75px;
     }
 }
