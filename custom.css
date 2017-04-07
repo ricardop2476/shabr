@@ -137,3 +137,12 @@ html, body {
     width: 100%;
     background: white;
 }
+
+footer {
+    background-color:#00ccff;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
