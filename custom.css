@@ -18,7 +18,7 @@ html, body {
 #landing .title {
     position: absolute;
     top: 40%;
-    transform: translate3d(-5%, -50%, 0);
+    transform: translate3d(-5%, -40%, 0);
 }
 
 #landing .title h1 {
@@ -30,13 +30,11 @@ html, body {
 #landing .title h2 {
     font-family: 'Multi', sans-serif;
     color: #FFFFFF;
-    /*font-size: 37px*/
 }
 
 #landing .title h3 {
     font-family: 'Muli', sans-serif;
     color: #FFFFFF;
-    /*font-size: 23px;*/
 }
 
 #landing .down span.arrow {
@@ -137,4 +135,5 @@ html, body {
 
 #home .navbar {
     width: 100%;
+    background: white;
 }
