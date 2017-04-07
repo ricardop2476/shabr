@@ -138,3 +138,12 @@ html, body {
 #home .navbar {
     width: 100%;
 }
+
+footer {
+    background-color:#00ccff;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
