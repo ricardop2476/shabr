@@ -134,8 +134,37 @@ html, body {
 }
 
 #home .navbar {
-    width: 100%;
-    background: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+}
+
+#home .navbar li a{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #3E52B3;
+}
+
+#home img {
+    width:45px;
+    height:45px;
+}
+
+#home .logo:hover {
+    -webkit-transform: rotate(180deg) scale(1) skew(0deg) translate(0px);
+}
+#home .logo {
+    -webkit-transition: All .8s ease;
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+
 }
 
 footer {
