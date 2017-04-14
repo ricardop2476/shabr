@@ -147,7 +147,7 @@ html, body {
     }
 }
 
-#home .navbar li a{
+#home .navbar li a {
     padding-right: 50px;
     padding-left: 50px;
     color: #3E52B3;
@@ -165,6 +165,21 @@ html, body {
     -webkit-transition: All .8s ease;
     -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-family: 'Muli', sans-serif;
+    color: #3E52B3;
+    font-size: 400%;
+}
+
+.jumbotron p {
+    color: black;
+    font-family: 'Muli', sans-serif;
 }
 
 footer {
