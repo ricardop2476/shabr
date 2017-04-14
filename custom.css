@@ -182,8 +182,14 @@ html, body {
     font-family: 'Muli', sans-serif;
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
 footer {
-    background-color:#00ccff;
+    background-color:#3E52B3;
 }
 
 p {
