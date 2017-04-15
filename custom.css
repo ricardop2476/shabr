@@ -187,9 +187,21 @@ html, body {
       width: 70%;
       margin: auto;
   }
+  
+  .carousel-control.right {
+      background-image: none;
+  }
+  
+  .carousel-control.left {
+      background-image: none;
+  }
+
+.glyphicon-chevron-right:before, .glyphicon-chevron-left:before{
+    color: #3E52B3;
+}
 
 footer {
-    background-color:#3E52B3;
+    background-color: #3E52B3;
 }
 
 p {
