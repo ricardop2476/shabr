@@ -167,8 +167,10 @@ html, body {
 
 }
 
+
 .jumbotron {
     background-color: transparent;
+    padding-bottom: 25px;
 }
 
 .jumbotron h1 {
@@ -186,6 +188,7 @@ html, body {
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+      /*padding-bottom: 10px;*/
   }
   
   .carousel-control.right {
@@ -200,6 +203,11 @@ html, body {
     color: #3E52B3;
 }
 
+.well {
+    border: 0px;
+    padding: 0px;
+    padding-top: 15px;
+}
 footer {
     background-color: #3E52B3;
 }
