@@ -208,11 +208,21 @@ html, body {
     padding: 0px;
     padding-top: 15px;
 }
+
+p {
+    color: black;
+}
+
+#testimonials {
+    padding-top: 10px;
+    padding-bottom: 10
+}
+
 footer {
     background-color: #3E52B3;
 }
 
-p {
+footer p {
     color: white;
     font-size: 14px;
 }
