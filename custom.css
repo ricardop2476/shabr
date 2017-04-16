@@ -220,6 +220,12 @@ p {
     font-size: 20px;
 }
 
+#testimonials h1 {
+    color: #3E52B3;
+    font-size: 60px;
+    text-align: center;
+}
+
 footer {
     background-color: #3E52B3;
 }
