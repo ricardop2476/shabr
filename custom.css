@@ -228,7 +228,6 @@ footer {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
     url('http://res.freestockphotos.biz/pictures/10/10013-a-hot-air-balloon-in-a-blue-sky-pv.jpg') no-repeat center;
     background-size: cover;
-=======
 .glyphicon-chevron-right:before, .glyphicon-chevron-left:before{
     color: #3E52B3;
 }
@@ -263,5 +262,4 @@ footer {
 footer p {
     color: white;
     font-size: 14px;
->>>>>>> 2b512f9ff0e323c927556f3cd94b4d9b43c257cf
 }
