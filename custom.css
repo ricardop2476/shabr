@@ -226,6 +226,10 @@ p {
     text-align: center;
 }
 
+#avatar {
+    display: none;
+}
+
 footer {
     background-color: #3E52B3;
 }
