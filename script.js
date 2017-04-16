@@ -1,6 +1,7 @@
 $(function(){
+    // tooltip
     $('[data-toggle="tooltip"]').tooltip(); 
-    
+    // user comment
     $('button').click(function() {
         var commentName = $('#userName').val();
         $('#name').html(commentName);
