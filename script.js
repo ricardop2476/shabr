@@ -7,5 +7,8 @@ $(document).ready(function(){
               
         var commentText = $('#userComment').val();
         $('#comment').html('"'+commentText+'"');
+        
+        var showImg = ('block');
+        $('#avatar').css('display', showImg);
     });
 });
