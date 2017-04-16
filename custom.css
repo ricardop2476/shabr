@@ -167,8 +167,10 @@ html, body {
 
 }
 
+
 .jumbotron {
     background-color: transparent;
+    padding-bottom: 25px;
 }
 
 .jumbotron h1 {
@@ -186,6 +188,15 @@ html, body {
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+      /*padding-bottom: 10px;*/
+  }
+  
+  .carousel-control.right {
+      background-image: none;
+  }
+  
+  .carousel-control.left {
+      background-image: none;
   }
 
 #gallery {
@@ -217,4 +228,40 @@ footer {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
     url('http://res.freestockphotos.biz/pictures/10/10013-a-hot-air-balloon-in-a-blue-sky-pv.jpg') no-repeat center;
     background-size: cover;
+=======
+.glyphicon-chevron-right:before, .glyphicon-chevron-left:before{
+    color: #3E52B3;
+}
+
+.well {
+    border: 0px;
+    padding: 0px;
+    padding-top: 15px;
+}
+
+p {
+    color: black;
+}
+
+#testimonials {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+}
+
+#testimonials h1 {
+    color: #3E52B3;
+    font-size: 60px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3E52B3;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+>>>>>>> 2b512f9ff0e323c927556f3cd94b4d9b43c257cf
 }
