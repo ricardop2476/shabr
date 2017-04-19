@@ -260,7 +260,22 @@ footer {
     background-color: #3E52B3;
 }
 
+footer img {
+    padding: 5px;
+    float: right;
+    width: 170px;
+}
+
 footer p {
     color: white;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+}
+
+footer #copyright {
+    text-align: center;
+}
+
+.go-bottom {
+    transition-timing-function: ease;
 }
